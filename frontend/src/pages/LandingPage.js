@@ -251,7 +251,7 @@ const LandingPage = ({ theme }) => {
               color: "#000", // Black heading
             }}
           >
-            Why Choose DocuThinker?
+            Why Choose AI Summariser?
           </Typography>
           <Typography
             variant="body1"
