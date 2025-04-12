@@ -113,20 +113,7 @@ const LandingPage = ({ theme }) => {
               buttonText: "Chat Now",
               link: "/home",
             },
-            {
-              title: "Voice Chat with AI",
-              description:
-                "Use voice commands to interact with our AI and get instant responses.",
-              buttonText: "Try Voice Chat",
-              link: "/home",
-            },
-            {
-              title: "Document Summarization in Multiple Languages",
-              description:
-                "Support for multiple languages to generate summaries and insights from documents.",
-              buttonText: "Try Now",
-              link: "/home",
-            },
+           
             {
               title: "Rewrite Content with AI",
               description:
@@ -148,13 +135,7 @@ const LandingPage = ({ theme }) => {
               buttonText: "Analyze Sentiment",
               link: "/home",
             },
-            {
-              title: "Document Storage and Management",
-              description:
-                "Securely store, manage, and easily access your documents with our cloud-based solution.",
-              buttonText: "Sign Up",
-              link: "/register",
-            },
+            
           ].map((feature, index) => (
             <Grid
               item
